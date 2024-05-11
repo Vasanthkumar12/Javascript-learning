@@ -16,5 +16,7 @@ console.log("type = " + typeof(a))
 
 let d = '5'
 console.log("type = " + typeof(d))
-console.log("d==5 " + d == 5)
-console.log("d==5 " + d === 5)
+console.log(d == 5)
+console.log(d === 5)
+console.log(d == '5')
+console.log(d === '5')
