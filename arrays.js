@@ -61,3 +61,16 @@ console.log(arr3.split(""))
 
 let arr4 = "Vasanth Kumar Living in chennai"
 console.log(arr4.split(" "))
+
+console.log("Concat Method")
+// concat() => It also joins 2 arrays into 1 array
+let arr5 =  [1, 2, 3, 4, 5]
+let arr6 = ["Vasanth ", "Kumar ", "Living in ", "chennai"]
+console.log(arr5 + arr6)
+console.log(arr5.concat(arr6))
+
+console.log("Spread Method")
+// spread() => It also joins 2 arrays into 1
+let arr7 =  [1, 2, 3, 4, 5]
+let arr8 = ["Vasanth ", "Kumar ", "Living in ", "chennai"]
+console.log(...arr5, ...arr6)
