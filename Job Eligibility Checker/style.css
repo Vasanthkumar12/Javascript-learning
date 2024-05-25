@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+.outDiv {
+    background-color: blanchedalmond;
+    min-width: 800px;
+    max-width: 30%;
+    height: 70%;
+    margin: 30%;
+    margin-top: 10%;
+    padding: 100px;
+    padding-top: 10px;
+}
+
+#qualifications {
+    font-size: 3em;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+input {
+    height: 55px;
+    width: 55px;
+}
+
+h1{
+    padding-top: 50px;
+    font-size: 5em; 
+    color:blueviolet;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 3.5em; 
+    color: black;
+}
+
+button {
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 30px 50px;
+    font-size: 2.5em;
+    color: brown;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+
+#result {
+    text-align: center;
+    color: black;
+    font-size: 4em;
+}

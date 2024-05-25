@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Eligibility Checker</title>
+</head>
+<body>
+    <div class="outDiv">
+        <h1>Job Eligibility Checker</h1>
+        <h2>Select your qualification</h2>
+        <div id="qualifications">
+            <label>
+                <input type="radio" name="qualification" value="Illliterate"> Illliterate
+            </label><br>
+    
+            <label>
+                <input type="radio" name="qualification" value="UG"> UG
+            </label><br>
+    
+            <label>
+                <input type="radio" name="qualification" value="Higher Secondary"> Higher Secondary
+            </label><br>
+    
+            <label>
+                <input type="radio" name="qualification" value="PG"> PG
+            </label>
+        </div>
+        <button type="submit" onclick="checker()">Check Eligiblity</button>
+        <h1 id = 'result'></h1>
+    </div>
+    <script src="checker.js"></script>
+</body>
+</html>
