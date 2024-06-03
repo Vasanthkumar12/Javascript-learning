@@ -39,7 +39,7 @@ map1.forEach((v, k) => {
     console.log("k, v = ", k, v)
 })
 console.log()
-console.log(map1)
+console.log( "Test = " + map1['a']++)
 console.log(map1)
 
 
