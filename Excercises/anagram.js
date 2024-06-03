@@ -49,3 +49,43 @@ if(str1.length == str2.length){
         console.log("No it is not a Anagram")
     }
 }
+
+// Using 1 map to acheive anagram
+
+str3 = 'racwer'
+str4 = 'carrew'
+map3 = new Map()
+for(i=0; i<str3.length; i++) {
+    if(map3.has(str3[i])) {
+        c = map3.get(str3[i])    
+        map3.set(str3[i], ++c)
+    }
+    else {
+        map3.set(str3[i], 1)
+    }
+}
+console.log(map3)
+
+for(i=0; i<str4.length; i++) {
+    if(map3.has(str4[i])) {
+        c = map3.get(str3[i])    
+        map3.set(str3[i], --c)
+    }
+}
+console.log(map3)
+res = true
+map3.forEach((v,k) => {
+    console.log("k, v = ", k, v)
+    if(v != 0) {
+        console.log("IF")         
+        res = false
+    }
+})
+
+console.log("res = ", res)
+if(res == true) {
+    console.log("YES it is Anagram")
+}
+else {
+    console.log("NO it is not a Anagram")
+}
